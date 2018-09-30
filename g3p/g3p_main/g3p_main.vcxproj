@@ -102,6 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\..\geometry3Plus\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -143,6 +144,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\AxisAlignedBox2.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\AxisAlignedBox3.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\indexType.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\IndexUtil.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\mathUtil.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\matrix2.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\matrix3.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\quaternion.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\transformSequence2.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\triangle2.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\triangle3.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector2d.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector2f.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector2i.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector3d.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector3f.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector3i.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector4d.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector4f.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vectorTraits.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vectorTuple.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

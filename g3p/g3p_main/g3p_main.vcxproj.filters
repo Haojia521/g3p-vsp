@@ -13,5 +13,78 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\math">
+      <UniqueIdentifier>{110cb65a-399c-43d9-b02d-815bdb94b71e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\AxisAlignedBox2.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\AxisAlignedBox3.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\indexType.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\IndexUtil.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\mathUtil.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\matrix2.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\matrix3.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\quaternion.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\transformSequence2.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\triangle2.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\triangle3.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector2d.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector2f.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector2i.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector3d.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector3f.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector3i.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector4d.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vector4f.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vectorTraits.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\vectorTuple.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
