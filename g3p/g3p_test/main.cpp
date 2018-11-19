@@ -1,5 +1,4 @@
-
-#define DO_TEST_MATH 1
+﻿#define DO_TEST_MATH 1
 
 #if DO_TEST_MATH
 #include "g3p_test_math.h"
