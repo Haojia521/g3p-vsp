@@ -153,6 +153,7 @@
     <ClInclude Include="..\..\..\geometry3Plus\include\math\matrix2.h" />
     <ClInclude Include="..\..\..\geometry3Plus\include\math\matrix3.h" />
     <ClInclude Include="..\..\..\geometry3Plus\include\math\quaternion.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\ray3.h" />
     <ClInclude Include="..\..\..\geometry3Plus\include\math\transformSequence2.h" />
     <ClInclude Include="..\..\..\geometry3Plus\include\math\triangle2.h" />
     <ClInclude Include="..\..\..\geometry3Plus\include\math\triangle3.h" />
