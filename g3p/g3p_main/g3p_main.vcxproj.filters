@@ -87,6 +87,15 @@
     <ClInclude Include="..\..\..\geometry3Plus\include\math\ray3.h">
       <Filter>头文件\math</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\line2.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\line3.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\Box3.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

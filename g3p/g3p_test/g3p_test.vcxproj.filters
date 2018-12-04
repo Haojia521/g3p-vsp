@@ -35,5 +35,8 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="g3p_test_math_frame_3.cpp">
+      <Filter>头文件\test_math</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

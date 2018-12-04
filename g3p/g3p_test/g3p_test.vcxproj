@@ -149,6 +149,7 @@
     <ClInclude Include="g3p_test_utils.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="g3p_test_math_frame_3.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

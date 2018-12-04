@@ -1,4 +1,4 @@
-#ifndef G3P_TEST_UTILS
+﻿#ifndef G3P_TEST_UTILS
 #define G3P_TEST_UTILS
 
 #include <iostream>
@@ -18,6 +18,13 @@ namespace g3test
     {
         if (str != nullptr) std::cout << str << "  :";
         std::cout << "  vector x: " << vec.x() << "  y: " << vec.y() << "  z: " << vec.z() << std::endl;
+    }
+
+    template<typename T>
+    inline void printVector4(const T &vec, const char *str)
+    {
+        if (str != nullptr) std::cout << str << "  :";
+        std::cout << "  vector x: " << vec.x() << "  y: " << vec.y() << "  z: " << vec.z() <<  "  w: " << vec.w() << std::endl;
     }
 
     template<typename AAB2>
@@ -102,6 +109,21 @@ namespace g3test
         printVector3(mat.row(0), " -> row 0");
         printVector3(mat.row(1), " -> row 1");
         printVector3(mat.row(2), " -> row 2");
+    }
+
+    template <typename Quat>
+    void printQuaterdion(const Quat &quat, const char *info)
+    {
+        std::cout << "Quat : " << info << std::endl;
+        std::cout << "  x: " << quat.x() << "  y: " << quat.y() << "  z: " << quat.z() << "  w: " << quat.w() << std::endl;
+    }
+
+    template <typename Frm3>
+    void printFrame3(const Frm3 &frm, const char *info)
+    {
+        std::cout << "" << info << std::endl;
+        printVector3(frm.origin(), " -> origin");
+        printQuaterdion(frm.direction(), " -> direction");
     }
 }
 

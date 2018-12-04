@@ -146,9 +146,12 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\geometry3Plus\include\math\AxisAlignedBox2.h" />
     <ClInclude Include="..\..\..\geometry3Plus\include\math\AxisAlignedBox3.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\Box3.h" />
     <ClInclude Include="..\..\..\geometry3Plus\include\math\frame3.h" />
     <ClInclude Include="..\..\..\geometry3Plus\include\math\indexType.h" />
     <ClInclude Include="..\..\..\geometry3Plus\include\math\IndexUtil.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\line2.h" />
+    <ClInclude Include="..\..\..\geometry3Plus\include\math\line3.h" />
     <ClInclude Include="..\..\..\geometry3Plus\include\math\mathUtil.h" />
     <ClInclude Include="..\..\..\geometry3Plus\include\math\matrix2.h" />
     <ClInclude Include="..\..\..\geometry3Plus\include\math\matrix3.h" />
